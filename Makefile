@@ -53,19 +53,20 @@ ifeq ($(DEBUG),0)
 else
 	install -m644 assets/pc/input.conf $(DISTDIR)
 endif
-	install -m755 -d $(DISTDIR)/sections/applications $(DISTDIR)/sections/emulators $(DISTDIR)/sections/games $(DISTDIR)/sections/settings
+	# install -m755 -d $(DISTDIR)/sections/applications $(DISTDIR)/sections/emulators $(DISTDIR)/sections/games $(DISTDIR)/sections/settings
 	install -m644 -D README.rst $(DISTDIR)/README.txt
 	install -m644 -D COPYING $(DISTDIR)/COPYING
 	install -m644 -D ChangeLog $(DISTDIR)/ChangeLog
 	cp -RH assets/skins assets/translations $(DISTDIR)
 	cp -RH assets/$(TARGET)/BlackJeans.png $(DISTDIR)/skins/Default/wallpapers
-	cp -RH assets/$(TARGET)/skin.conf $(DISTDIR)/skins/Default
-	cp -RH assets/$(TARGET)/font.ttf $(DISTDIR)/skins/Default
-	cp -RH assets/$(TARGET)/gmenu2x.conf $(DISTDIR)
-	cp -RH assets/$(TARGET)/icons/* $(DISTDIR)/skins/Default/icons/
-	cp -RH assets/$(TARGET)/emulators/* $(DISTDIR)/sections/emulators/
-	cp -RH assets/$(TARGET)/games/* $(DISTDIR)/sections/games/
-	cp -RH assets/$(TARGET)/applications/* $(DISTDIR)/sections/applications/
+	# cp -RH assets/$(TARGET)/skin.conf $(DISTDIR)/skins/Default
+	# cp -RH assets/$(TARGET)/font.ttf $(DISTDIR)/skins/Default
+	# cp -RH assets/$(TARGET)/gmenu2x.conf $(DISTDIR)
+	# cp -RH assets/$(TARGET)/icons/* $(DISTDIR)/skins/Default/icons/
+	# cp -RH assets/$(TARGET)/emulators/* $(DISTDIR)/sections/emulators/
+	# cp -RH assets/$(TARGET)/games/* $(DISTDIR)/sections/games/
+	# cp -RH assets/$(TARGET)/applications/* $(DISTDIR)/sections/applications/
+	cd $(DISTDIR)/ && zip -r ../GMenuNext.zip .
 
 -include $(patsubst src/%.cpp, $(OBJDIR)/src/%.d, $(SOURCES))
 
