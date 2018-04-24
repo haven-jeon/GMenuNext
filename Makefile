@@ -1,4 +1,4 @@
-CHAINPREFIX=/home/dc/Downloads/buildroot/gh_retrogame_buildroot/output/host
+CHAINPREFIX=/opt/rs97-toolchain
 
 TARGET=retrogame
 DEBUG=0

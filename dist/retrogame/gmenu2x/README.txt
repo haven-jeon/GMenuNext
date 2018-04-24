@@ -12,6 +12,15 @@ Unpack the [Release](https://github.com/pingflood/GMenuNext/blob/master/dist/ret
 
 ## Changelog
 
+**2018-04-24**
+* Fixed incorrect brightness when returning from suspend mode;
+* Dynamic fill the icon tray;
+* Added option to auto hide a MessageBox;
+* Use MessageBox to draw some messages;
+* Save screenshot with combo [MODIFIER] + [BUTTON_R]; (mainmenu only)
+* Mute/unmute with combo [MODIFIER] + [TRIGGER_L];
+
+
 **2018-04-23**
 * Fixed the Log Viewer;
 * Added default values for brightness and global volume;
@@ -87,7 +96,8 @@ All controls are being revised. Here's the legacy GMenu2X control mapping:
 
 ## Contacts
 
-GMenu2X Copyright (c) 2006-2010 `Massimiliano Torromeo <mailto:massimiliano.torromeo@gmail.com>`_
-GMenuNext 2018 @`Dingoonity thread <https://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/>`_
+GMenu2X Copyright (c) 2006-2010 [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com)
 
-Visit the homepage at http://mtorromeo.github.com/gmenu2x for more info.
+GMenuNext 2018
+
+Visit the [Dingoonity thread](https://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/) and [GMenu2X](http://mtorromeo.github.com/gmenu2x) homepage for more info.
