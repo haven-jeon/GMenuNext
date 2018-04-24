@@ -87,7 +87,7 @@ All controls are being revised. Here's the legacy GMenu2X control mapping:
 
 ## Contacts
 
-GMenu2X Copyright (c) 2006-2010 `Massimiliano Torromeo <mailto:massimiliano.torromeo@gmail.com>`_
-GMenuNext 2018 @`Dingoonity thread <https://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/>`_
+GMenu2X Copyright (c) 2006-2010 [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com)
+GMenuNext 2018 @[Dingoonity thread](https://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/)
 
 Visit the homepage at http://mtorromeo.github.com/gmenu2x for more info.
