@@ -19,7 +19,7 @@ Unpack the [Release](https://github.com/pingflood/GMenuNext/blob/master/dist/ret
 * Use MessageBox to draw some messages;
 * Save screenshot with combo [MODIFIER] + [BUTTON_R]; (mainmenu only)
 * Mute/unmute with combo [MODIFIER] + [TRIGGER_L];
-
+* Fix in DekUI messagebox color;
 
 **2018-04-23**
 * Fixed the Log Viewer;
@@ -44,6 +44,7 @@ Unpack the [Release](https://github.com/pingflood/GMenuNext/blob/master/dist/ret
 * Navigate page up/down with directional left/right;
 * New variables for skin designers;
 * New set of "Next" skins by @m1024.
+
 
 ## [How to have previews in Selector Browser](http://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/msg177392/#msg177392)
 
@@ -75,7 +76,6 @@ The fields logged are:
 * BatteryLevel: Raw battery level as given by system.
 
 
-
 ## Controls
 
 All controls are being revised. Here's the legacy GMenu2X control mapping:
@@ -96,8 +96,12 @@ All controls are being revised. Here's the legacy GMenu2X control mapping:
 
 ## Contacts
 
-GMenu2X Copyright (c) 2006-2010 [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com)
+I want to thanks [@m1024](https://boards.dingoonity.org/profile/m1024/) and [@jutley](https://boards.dingoonity.org/profile/jutley/) for all the support they are giving, testing and reporting bugs.
 
-GMenuNext 2018
+## Contacts
 
-Visit the [Dingoonity thread](https://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/) and [GMenu2X](http://mtorromeo.github.com/gmenu2x) homepage for more info.
+GMenu2X Copyright (c) 2006-2010 [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com); GMenuNext 2018 by [@pingflood](https://boards.dingoonity.org/profile/pingflood/); Skin PS4, PSNext, PSNextDark and Zelda by [@m1024](https://boards.dingoonity.org/profile/m1024/)
+
+Visit the [Dingoonity thread](https://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/) and the [Discord channel](https://discord.gg/hvR5vK6)!
+
+[GMenu2X](http://mtorromeo.github.com/gmenu2x) homepage for more info.
