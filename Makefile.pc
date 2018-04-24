@@ -4,7 +4,7 @@ CC = gcc
 CXX = g++
 STRIP = strip
 
-CFLAGS = -I"/usr/include" `sdl-config --cflags` -DTARGET_PC -DTARGET=$(TARGET) -DLOG_LEVEL=4 -Wall -Wundef -Wno-deprecated -Wno-unknown-pragmas -Wno-format -pg -O0 -g3
+CFLAGS = -I"/usr/include" `sdl-config --cflags` -DTARGET_PC -DTARGET=$(TARGET) -DLOG_LEVEL=4 -Wall -Wundef -Wno-deprecated -Wno-unknown-pragmas -Wno-format -pg -O0 -g -ggdb
 CXXFLAGS = $(CFLAGS)
 LDFLAGS = -L"/usr/lib" `sdl-config --libs` -lfreetype -lSDL_image -lSDL_ttf -lSDL_gfx -ljpeg -lpng12 -lz
 #-lSDL_gfx
@@ -39,7 +39,7 @@ dist: dir shared
 	install -m755 -D $(APPNAME)-debug $(DISTDIR)/gmenu2x
 	install -m644 assets/$(TARGET)/input.conf $(DISTDIR)
 	install -m755 -d $(DISTDIR)/sections/applications $(DISTDIR)/sections/emulators $(DISTDIR)/sections/games $(DISTDIR)/sections/settings
-	install -m644 -D README.rst $(DISTDIR)/README.txt
+	install -m644 -D README.md $(DISTDIR)/README.txt
 	install -m644 -D COPYING $(DISTDIR)/COPYING
 	install -m644 -D ChangeLog $(DISTDIR)/ChangeLog
 	cp -R assets/skins assets/translations $(DISTDIR)

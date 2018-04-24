@@ -47,14 +47,14 @@ clean:
 	rm -rf $(OBJDIR) $(DISTDIR) *.gcda *.gcno $(APPNAME)
 
 dist: dir shared
-	install -m755 -D $(APPNAME)-debug $(DISTDIR)/gmenu2x
+	install -m755 -D $(APPNAME) $(DISTDIR)/gmenu2x
 ifeq ($(DEBUG),0)
 	install -m644 assets/$(TARGET)/input.conf $(DISTDIR)
 else
 	install -m644 assets/pc/input.conf $(DISTDIR)
 endif
 	# install -m755 -d $(DISTDIR)/sections/applications $(DISTDIR)/sections/emulators $(DISTDIR)/sections/games $(DISTDIR)/sections/settings
-	install -m644 -D README.rst $(DISTDIR)/README.txt
+	install -m644 -D README.md $(DISTDIR)/README.txt
 	install -m644 -D COPYING $(DISTDIR)/COPYING
 	install -m644 -D ChangeLog $(DISTDIR)/ChangeLog
 	cp -RH assets/skins assets/translations $(DISTDIR)
