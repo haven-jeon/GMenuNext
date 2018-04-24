@@ -17,7 +17,7 @@ Unpack the [Release](https://github.com/pingflood/GMenuNext/blob/master/dist/ret
 * Dynamic fill the icon tray;
 * Added option to auto hide a MessageBox;
 * Use MessageBox to draw some messages;
-* Save screenshot with combo [X] + [BUTTON_R]; (mainmenu only)
+* Save screenshot with combo [X] + [BUTTON_R];
 * Mute/unmute with combo [X] + [TRIGGER_L];
 * Fix in DekUI messagebox color;
 * Screenshot function is global
