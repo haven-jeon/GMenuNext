@@ -1,6 +1,6 @@
 CHAINPREFIX=/opt/rs97-toolchain
 
-TARGET=retrogame
+TARGET=rs97
 DEBUG=0
 
 ifeq ($(DEBUG),0)
@@ -15,7 +15,7 @@ SYSROOT     := $(CHAINPREFIX)/usr/mipsel-buildroot-linux-uclibc/sysroot
 SDL_CFLAGS  := $(shell $(SYSROOT)/usr/bin/sdl-config --cflags)
 SDL_LIBS    := $(shell $(SYSROOT)/usr/bin/sdl-config --libs)
 
-CFLAGS = -ggdb -DTARGET_RETROGAME -DTARGET=$(TARGET) -DLOG_LEVEL=3 -g3 $(SDL_CFLAGS) -I$(CHAINPREFIX)/usr/include/ -I$(SYSROOT)/usr/include/  -I$(SYSROOT)/usr/include/SDL/  
+CFLAGS = -ggdb -DTARGET_RS97 -DTARGET=$(TARGET) -DLOG_LEVEL=3 -g3 $(SDL_CFLAGS) -I$(CHAINPREFIX)/usr/include/ -I$(SYSROOT)/usr/include/  -I$(SYSROOT)/usr/include/SDL/  
 CXXFLAGS = $(CFLAGS)
 LDFLAGS = $(SDL_LIBS) -lfreetype -lSDL_image -lSDL_ttf -lSDL_gfx -lSDL -lpthread
 
