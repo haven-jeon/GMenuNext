@@ -12,10 +12,13 @@ Unpack the [Release](https://github.com/pingflood/GMenuNext/blob/master/dist/rs9
 
 ## Changelog
 
+**2018-04-26**
+* Add some system information in About screen;
+* About screen using about.txt
+
 **2018-04-25**
 * Save screenshot in a ./screenshots
 * First adjust in battery indicator based in data provided by Battery Logging. Thanks to @Valenhir, @m1024 and @Jutley for logging and sharing battery data. ;)
-
 
 **2018-04-24**
 * Fixed incorrect brightness when returning from suspend mode;
@@ -44,7 +47,7 @@ Unpack the [Release](https://github.com/pingflood/GMenuNext/blob/master/dist/rs9
 * Rearranged in "core" of the main menu where it redraws the screen. Prevent redraw screen while in "suspend" mode.
 * Absolute path resolving in filelister; Prevents (?) buffer overflow after browsing a lot of files and allow resolving relative paths.
 
-**2018-04-23**
+**2018-04-20**
 * New main menu layout, with a section bar on the left and items in list, inspired in [concept designed by @m1024](http://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/msg177170/#msg177170);
 * Retouched every screen to make all system cohesive;
 * Alternative selector browser, allowing you to load previews of your games if selector previews is set;
