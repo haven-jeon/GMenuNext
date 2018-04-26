@@ -12,6 +12,11 @@ Unpack the [Release](https://github.com/pingflood/GMenuNext/blob/master/dist/ret
 
 ## Changelog
 
+**2018-04-25**
+* Save screenshot in a ./screenshots
+* First adjust in battery indicator based in data provided by Battery Logging. Thanks to @Valenhir, @m1024 and @Jutley for logging and sharing battery data. ;)
+
+
 **2018-04-24**
 * Fixed incorrect brightness when returning from suspend mode;
 * Dynamic fill the icon tray;

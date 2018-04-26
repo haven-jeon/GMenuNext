@@ -56,7 +56,8 @@ endif
 	# install -m755 -d $(DISTDIR)/sections/applications $(DISTDIR)/sections/emulators $(DISTDIR)/sections/games $(DISTDIR)/sections/settings
 	install -m644 -D README.md $(DISTDIR)/README.txt
 	install -m644 -D COPYING $(DISTDIR)/COPYING
-	install -m644 -D ChangeLog $(DISTDIR)/ChangeLog
+	# install -m644 -D ChangeLog $(DISTDIR)/ChangeLog
+	install -m644 -D about.txt $(DISTDIR)/about.txt
 	cp -RH assets/skins assets/translations $(DISTDIR)
 	cp -RH assets/$(TARGET)/BlackJeans.png $(DISTDIR)/skins/Default/wallpapers
 	cp -RH assets/$(TARGET)/skin.conf $(DISTDIR)/skins/Default
