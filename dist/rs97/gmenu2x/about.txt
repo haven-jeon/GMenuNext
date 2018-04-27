@@ -1,3 +1,5 @@
+About
+----
 GMenu2X is developed by Massimiliano "Ryo" Torromeo, and is released under the GPL-v2 license.
 Website: http://mtorromeo.github.com/gmenu2x
 E-Mail & PayPal account: massimiliano.torromeo@gmail.com
