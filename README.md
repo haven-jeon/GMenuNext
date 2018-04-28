@@ -12,6 +12,15 @@ Unpack the [Release](https://github.com/pingflood/GMenuNext/blob/master/dist/rs9
 
 ## Changelog
 
+**2018-04-28**
+* Option to choose battery discharge profile in Settings;
+* Uptime and battery status in About Screen;
+* Improvements in Battery Logger;
+* Calc text height in fonthelper;
+* Messagebox use text height to create dialog
+* Second adjust in battery indicator levels;
+* Adjusts in About Screen.
+
 **2018-04-26**
 * Add some system information in About screen;
 * About screen using about.txt
