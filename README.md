@@ -17,7 +17,7 @@ Unpack the [Release](https://github.com/pingflood/GMenuNext/blob/master/dist/rs9
 * About screen using about.txt
 
 **2018-04-25**
-* Save screenshot in a ./screenshots
+* Save screenshot in a ./screenshots folder;
 * First adjust in battery indicator based in data provided by Battery Logging. Thanks to @Valenhir, @m1024 and @Jutley for logging and sharing battery data. ;)
 
 **2018-04-24**
