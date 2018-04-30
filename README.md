@@ -5,12 +5,16 @@
 
 ## Installation
 
-Unpack the [Release](https://github.com/pingflood/GMenuNext/blob/master/dist/rs97/GMenuNext.zip) over your current GMenu2X directory, or download the [latest binary](https://github.com/pingflood/GMenuNext/raw/master/dist/rs97/gmenu2x/gmenu2x) and replace it in your device.
+Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) over your current GMenu2X directory, or download the latest binary and replace it in your device.
 
 (Re)Boot your device and enjoy [GMenuNext](https://github.com/pingflood/GMenuNext/).
 
 
 ## Changelog
+**2018-04-30**
+* Removed Disk Free space from About Screen due to system lag.
+* Removed /dist from repository and start using "Releases" 
+
 
 **2018-04-28**
 * Option to choose battery discharge profile in Settings;
