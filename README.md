@@ -11,6 +11,16 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 
 
 ## Changelog
+**2018-05-01**
+* Image backdrops in main menu and selector;
+* Page up/down in settings dialog;
+* Page up/down and rollover in context menu;
+* Batch of internal changes:
+	* Cleanup unused strings;
+	* Improved path handler;
+	* Unified use of SDL_Rect listRect for lists.
+
+## Changelog
 **2018-04-30**
 * Removed Disk Free space from About Screen due to system lag.
 * Removed /dist from repository and start using "Releases" 
