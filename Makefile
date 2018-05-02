@@ -1,11 +1,8 @@
 CHAINPREFIX=/opt/rs97-toolchain
 
 TARGET=rs97
-DEBUG=0
 
-ifeq ($(DEBUG),0)
-  CROSS_COMPILE=$(CHAINPREFIX)/usr/bin/mipsel-linux-
-endif
+CROSS_COMPILE=$(CHAINPREFIX)/usr/bin/mipsel-linux-
 
 CC = $(CROSS_COMPILE)gcc
 CXX = $(CROSS_COMPILE)g++
@@ -38,7 +35,6 @@ dir:
 debug: $(OBJS)
 	@echo "Linking gmenu2x-debug..."
 	$(CXX) -o $(APPNAME)-debug $(LDFLAGS) $(OBJS)
-	 # $(LDFLAGS) 
 
 shared: debug
 	$(STRIP) $(APPNAME)-debug -o $(APPNAME)
@@ -48,11 +44,7 @@ clean:
 
 dist: dir shared
 	install -m755 -D $(APPNAME) $(DISTDIR)/gmenu2x
-ifeq ($(DEBUG),0)
 	install -m644 assets/$(TARGET)/input.conf $(DISTDIR)
-else
-	install -m644 assets/pc/input.conf $(DISTDIR)
-endif
 	# install -m755 -d $(DISTDIR)/sections/applications $(DISTDIR)/sections/emulators $(DISTDIR)/sections/games $(DISTDIR)/sections/settings
 	install -m644 -D README.md $(DISTDIR)/README.txt
 	install -m644 -D COPYING $(DISTDIR)/COPYING
