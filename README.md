@@ -11,7 +11,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 
 
 ## Changelog
-**2018-05-01**
+**2018-05-02**
 * Image backdrops in main menu and selector;
 * Page up/down in settings dialog;
 * Page up/down and rollover in context menu;
