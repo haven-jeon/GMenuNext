@@ -25,7 +25,6 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 * Removed Disk Free space from About Screen due to system lag.
 * Removed /dist from repository and start using "Releases" 
 
-
 **2018-04-28**
 * Option to choose battery discharge profile in Settings;
 * Uptime and battery status in About Screen;
