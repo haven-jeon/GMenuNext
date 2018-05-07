@@ -11,7 +11,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 
 
 ## Changelog
-**2018-05-06** (*Codename: Blind shot*)
+**2018-05-06** (*Codename: Blind shot.*)
 * Moved Battery Logger to Applications;
 * Shows Battery Logger only if enter GMenuNext while charging;
 * Use QWERTY keyboard layout in editor screens;
