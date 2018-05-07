@@ -20,8 +20,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 * Fix crash when changing wallpaper in default skin;
 * Fix backdrop not working in Selector screen;
 * Updated m1024 skin pack;
-* Batch of internal changes:
- Removed unnecessary SDL_Surface for wallpaper
+* Batch of internal changes
 
 **2018-05-02** (*Codename: Your device, your backdrops*)
 * Image backdrops in main menu and selector;
