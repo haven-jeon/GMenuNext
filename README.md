@@ -22,7 +22,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 * Updated m1024 skin pack;
 * Batch of internal changes
 
-**2018-05-02** (*Codename: Your device, your backdrops*)
+**2018-05-02** (*Codename: Your device, your backdrops.*)
 * Image backdrops in main menu and selector;
 * Page up/down in settings dialog;
 * Page up/down and rollover in context menu;
