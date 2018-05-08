@@ -1,1 +1,4 @@
-../caanoo/autorun.gpu
+#!/bin/sh
+mount -o bind /mnt/sd/gmenu2x /usr/gp2x
+cd /usr/gp2x
+./gp2xmenu
