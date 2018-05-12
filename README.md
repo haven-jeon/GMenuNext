@@ -9,8 +9,22 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 
 (Re)Boot your device and enjoy [GMenuNext](https://github.com/pingflood/GMenuNext/).
 
-
 ## Changelog
+**2018-05-12** (*Codename: Any color you like.*)
+* Realtime preview of Skin changes;
+* Allow customize dimensions in Skin settings;
+* Tweaks in MessageBox text position;
+* Updated @m1024 retrogame skin pack.
+* Fixed bug with fontAlt color in dialogs;
+* Fixed bug when adding new link;
+* Batch of internal changes:
+	* Updated some translatable strings;
+	* Initialize fontAlt with #fd01fc00 and use regular color if not changed by skin;
+	* Convert Link Scanner into an external dialog;
+	* Convert Battery Logger into an external dialog;
+	* Do not compile GP2X specific code to RS97;
+	* Allow font color as argument to FontHelper write function.
+
 **2018-05-06** (*Codename: Blind shot.*)
 * Moved Battery Logger to Applications;
 * Shows Battery Logger only if enter GMenuNext while charging;
@@ -20,7 +34,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 * Fix crash when changing wallpaper in default skin;
 * Fix backdrop not working in Selector screen;
 * Updated m1024 skin pack;
-* Batch of internal changes
+* Batch of internal changes.
 
 **2018-05-02** (*Codename: Your device, your backdrops.*)
 * Image backdrops in main menu and selector;
