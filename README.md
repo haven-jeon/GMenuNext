@@ -17,6 +17,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 * Updated @m1024 retrogame skin pack.
 * Fixed bug with fontAlt color in dialogs;
 * Fixed bug when adding new link;
+* Fix browse dialog not returning directory on exit;
 * Batch of internal changes:
 	* Updated some translatable strings;
 	* Initialize fontAlt with #fd01fc00 and use regular color if not changed by skin;
