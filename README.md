@@ -14,7 +14,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 * Realtime preview of Skin changes;
 * Allow customize dimensions in Skin settings;
 * Tweaks in MessageBox text position;
-* Updated @m1024 retrogame skin pack.
+* Updated [@m1024x](https://github.com/m1024x/retrogame-skin-pack) retrogame skin pack.
 * Fixed bug with fontAlt color in dialogs;
 * Fixed bug when adding new link;
 * Fix browse dialog not returning directory on exit;
@@ -34,7 +34,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 * Add option to Skins backdrops;
 * Fix crash when changing wallpaper in default skin;
 * Fix backdrop not working in Selector screen;
-* Updated m1024 skin pack;
+* Updated [@m1024x](https://github.com/m1024x/retrogame-skin-pack) skin pack;
 * Batch of internal changes.
 
 **2018-05-02** (*Codename: Your device, your backdrops.*)
@@ -65,7 +65,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 
 **2018-04-25** (*Codename: Edison was wrong.*)
 * Save screenshot in a ./screenshots folder;
-* First adjust in battery indicator based in data provided by Battery Logging. Thanks to @Valenhir, @m1024 and @Jutley for logging and sharing battery data. ;)
+* First adjust in battery indicator based in data provided by Battery Logging. Thanks to @Valenhir, @m1024x and @Jutley for logging and sharing battery data. ;)
 
 **2018-04-24** (*Codename: Snapshots of a Memory.*)
 * Fixed incorrect brightness when returning from suspend mode;
@@ -95,12 +95,12 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 * Absolute path resolving in filelister; Prevents (?) buffer overflow after browsing a lot of files and allow resolving relative paths.
 
 **2018-04-20** (*Codename: Here comes a new challenger.*)
-* New main menu layout, with a section bar on the left and items in list, inspired in [concept designed by @m1024](http://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/msg177170/#msg177170);
+* New main menu layout, with a section bar on the left and items in list, inspired in [concept designed by @m1024x](http://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/msg177170/#msg177170);
 * Retouched every screen to make all system cohesive;
 * Alternative selector browser, allowing you to load previews of your games if selector previews is set;
 * Navigate page up/down with directional left/right;
 * New variables for skin designers;
-* New set of "Next" skins by @m1024.
+* New set of "Next" skins by [@m1024x](https://github.com/m1024x/retrogame-skin-pack).
 
 
 ## [How to have previews in Selector Browser](http://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/msg177392/#msg177392)
@@ -153,11 +153,11 @@ All controls are being revised. Here's the legacy GMenu2X control mapping:
 
 ## Contacts
 
-I want to thanks [@m1024](https://boards.dingoonity.org/profile/m1024/) and [@jutley](https://boards.dingoonity.org/profile/jutley/) for all the support they are giving, testing and reporting bugs.
+I want to thanks [@m1024x](https://boards.dingoonity.org/profile/m1024/) and [@jutley](https://boards.dingoonity.org/profile/jutley/) for all the support they are giving, testing and reporting bugs.
 
 ## Contacts
 
-GMenu2X Copyright (c) 2006-2010 [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com); GMenuNext 2018 by [@pingflood](https://boards.dingoonity.org/profile/pingflood/); Skin PS4, PSNext, PSNextDark and Zelda by [@m1024](https://boards.dingoonity.org/profile/m1024/)
+GMenu2X Copyright (c) 2006-2010 [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com); GMenuNext 2018 by [@pingflood](https://boards.dingoonity.org/profile/pingflood/); Skin PS4, PSNext, PSNextDark and Zelda by [@m1024x](https://github.com/m1024x/retrogame-skin-pack)
 
 Visit the [Dingoonity thread](https://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/) and the [Discord channel](https://discord.gg/hvR5vK6)!
 
