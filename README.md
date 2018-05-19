@@ -10,32 +10,34 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 (Re)Boot your device and enjoy [GMenuNext](https://github.com/pingflood/GMenuNext/).
 
 ## Changelog
-**2018-XX-XX** (*Codename: XXX.*)
-* Improve loop timers in main thread and dialogs;
-* Enable SDL_AddTimer for RS97;
-* Optimize dialogs:;
+**2018-XX-XX** (*Codename: Zeraora.*)
+* Improved loop timers in main thread and dialogs:
+	* Enable SDL_AddTimer for RS97;
+* Improved powerManager function:
+	* New option to turn device off when inactive;
+	* Add power manager to all dialogs;
+* Optimize dialogs:
 	* Don't redraw title, list and and bottom bar on every loop;
 	* Pass title, description and icon as argument to wallpaper dialog;
-* Improve manual dialog:;
+* Improve manual dialog:
 	* Integrate text manual with text dialog;
 	* Create ImageViewer dialog;
 * Add section icon to 'Rename Section' and 'Add Section' dialogs;
 * Fix settings dialog redraw transparency;
-* Realtime skin preview:;
+* Realtime skin preview:
 	* Update title icon on change skin;
     * Update button images on change skin;
 * Fix INC/DEC buttons (update your input.conf!);
 * Adjust buttons actions in menus and dialogs;
 * globalVolume is fixed in RS97, as there's no way to adjust volume via software;
-* Merged Toggle TV in TV system selection in settings:;
+* Merged Toggle TV in TV system selection in settings:
 	* TV OFF: Will use RS97's display;
 	* NTSC / PAL: Will output image in TV-out jack and turn display off;
 	* Will apply the setting on save and will reset to OFF on reboot;
 * Reuse of gmenu2x->input prevents reinstantiate InputManager;
 * Use global gmenu2x->inputCommonActions and avoid code duplication;
-* Move power related code to powerManager function;
-	* Add power manager to all dialogs;
 * Improvements in backlight slider;
+* Batch of internal changes and bug fixes.
 
 
 ## Changelog
