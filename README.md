@@ -13,6 +13,9 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 **2018-XX-XX** (*Codename: Zeraora.*)
 * Improved loop timers in main thread and dialogs:
 	* Enable SDL_AddTimer for RS97;
+* Combo button is now SELECT:
+	* SELECT + R: Screenshot;
+	* SELECT + L: Toggle sound;
 * Improved powerManager function:
 	* New option to turn device off when inactive;
 	* Add power manager to all dialogs;
