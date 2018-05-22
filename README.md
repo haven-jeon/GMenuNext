@@ -10,7 +10,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 (Re)Boot your device and enjoy [GMenuNext](https://github.com/pingflood/GMenuNext/).
 
 ## Changelog
-**2018-XX-XX** (*Codename: Zeraora.*)
+**2018-05-22** (*Codename: Zeraora.*)
 * Improved loop timers in main thread and dialogs:
 	* Enable SDL_AddTimer for RS97;
 * Combo button is now SELECT:
