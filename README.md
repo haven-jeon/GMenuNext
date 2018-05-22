@@ -10,7 +10,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 (Re)Boot your device and enjoy [GMenuNext](https://github.com/pingflood/GMenuNext/).
 
 ## Changelog
-**2018-05-22** (*Codename: Zeraora.*)
+**2018.05.22** (*Codename: Zeraora.*)
 * Improved loop timers in main thread and dialogs:
 	* Enable SDL_AddTimer for RS97;
 * Combo button is now SELECT:
@@ -44,7 +44,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 
 
 ## Changelog
-**2018-05-12** (*Codename: Any color you like.*)
+**2018.05.12** (*Codename: Any color you like.*)
 * Realtime preview of Skin changes;
 * Allow customize dimensions in Skin settings;
 * Tweaks in MessageBox text position;
@@ -60,7 +60,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 	* Do not compile GP2X specific code to RS97;
 	* Allow font color as argument to FontHelper write function.
 
-**2018-05-06** (*Codename: Blind shot.*)
+**2018.05.06** (*Codename: Blind shot.*)
 * Moved Battery Logger to Applications;
 * Shows Battery Logger only if enter GMenuNext while charging;
 * Use QWERTY keyboard layout in editor screens;
@@ -71,7 +71,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 * Updated [@m1024x](https://github.com/m1024x/retrogame-skin-pack) skin pack;
 * Batch of internal changes.
 
-**2018-05-02** (*Codename: Your device, your backdrops.*)
+**2018.05.02** (*Codename: Your device, your backdrops.*)
 * Image backdrops in main menu and selector;
 * Page up/down in settings dialog;
 * Page up/down and rollover in context menu;
@@ -80,11 +80,11 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 	* Improved path handler;
 	* Unified use of SDL_Rect listRect for lists.
 
-**2018-04-30** (*Codename: LWE.*)
+**2018.04.30** (*Codename: LWE.*)
 * Removed Disk Free space from About Screen due to system lag.
 * Removed /dist from repository and start using "Releases" 
 
-**2018-04-28** (*Codename: Edison still wrong.*)
+**2018.04.28** (*Codename: Edison still wrong.*)
 * Option to choose battery discharge profile in Settings;
 * Uptime and battery status in About Screen;
 * Improvements in Battery Logger;
@@ -93,15 +93,15 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 * Second adjust in battery indicator levels;
 * Adjusts in About Screen.
 
-**2018-04-26** (*Codename: How about you?*)
+**2018.04.26** (*Codename: How about you?*)
 * Add some system information in About screen;
 * About screen using about.txt
 
-**2018-04-25** (*Codename: Edison was wrong.*)
+**2018.04.25** (*Codename: Edison was wrong.*)
 * Save screenshot in a ./screenshots folder;
 * First adjust in battery indicator based in data provided by Battery Logging. Thanks to @Valenhir, @m1024x and @Jutley for logging and sharing battery data. ;)
 
-**2018-04-24** (*Codename: Snapshots of a Memory.*)
+**2018.04.24** (*Codename: Snapshots of a Memory.*)
 * Fixed incorrect brightness when returning from suspend mode;
 * Dynamic fill the icon tray;
 * Added option to auto hide a MessageBox;
@@ -112,7 +112,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 * Screenshot function is global
 * Brightness control is global
 
-**2018-04-23** (*Codename: Don't look back.*)
+**2018.04.23** (*Codename: Don't look back.*)
 * Fixed the Log Viewer;
 * Added default values for brightness and global volume;
 * New poweroff menu;
@@ -128,7 +128,7 @@ Unpack the latest [Release](https://github.com/pingflood/GMenuNext/releases/) ov
 * Rearranged in "core" of the main menu where it redraws the screen. Prevent redraw screen while in "suspend" mode.
 * Absolute path resolving in filelister; Prevents (?) buffer overflow after browsing a lot of files and allow resolving relative paths.
 
-**2018-04-20** (*Codename: Here comes a new challenger.*)
+**2018.04.20** (*Codename: Here comes a new challenger.*)
 * New main menu layout, with a section bar on the left and items in list, inspired in [concept designed by @m1024x](http://boards.dingoonity.org/ingenic-jz4760-devices/gmenunext-let's-make-gmenu-great-again!/msg177170/#msg177170);
 * Retouched every screen to make all system cohesive;
 * Alternative selector browser, allowing you to load previews of your games if selector previews is set;
